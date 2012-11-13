@@ -1,0 +1,42 @@
+Barry Shang
+Apartment List Coding Exercise
+
+To run, type
+./run.sh
+
+At the prompt "Enter a path:",
+type in a path and hit ENTER.
+
+Output will be given as
+
+"Normalized path:"
+ExamplePath
+
+-----------------------------------
+
+Example cases:
+
+1)
+
+Enter a path:
+foo/./bar
+
+Normalized path:
+foo/bar
+
+2)
+
+Enter a path:
+foo/bar/../baz
+
+Normalized path:
+foo/baz
+
+3)
+
+Enter a path:
+a/b/c/../../d/./e//f/g
+
+Normalized path:
+a/d/e//f/g
+
